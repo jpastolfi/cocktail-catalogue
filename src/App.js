@@ -5,18 +5,11 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 
 class App extends React.Component {
-  handleChange = ({ target }) => {
-    const { name, value } = target;
-    this.setState({
-      [name]: value,
-    });
-  }
-
   render() {
     return (
       <>
         <Header />
-        <Home />
+        <Home handleChange={ this.handleChange }/>
         <Footer />
       </>
     )

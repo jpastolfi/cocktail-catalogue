@@ -3,11 +3,10 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <footer>
-        <div className="footer">
-          <a href="">GitHub</a>
-          <a href="">LinkedIn</a>
-          <a href="">Twitter</a>
+      <footer className="footer">
+        <div className="footer-nav">
+          <a href="https://github.com/jpastolfi">GitHub</a>
+          <a href="https://www.linkedin.com/in/jpastolfi/">LinkedIn</a>
         </div>
       </footer>
     );
